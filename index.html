@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formatted Website</title>
+    <style>
+      /* native */
+      h1 {
+        color: red;
+        font-size: 32px;
+        /* px, em, rem, vw,vh, vmin, vmax, % */
+      }
+
+      /* class */
+      .title {
+        color: #9B9B96;
+        /* color: rgb(155, 155, 150); */
+        /* font-size: 48px; */
+      }
+
+      /* id */
+      /* comment content */
+      #form-title {}
+
+      
+
+      .box {
+        height: 200px;
+        
+      }
+
+      .blue {
+        background-color: dodgerblue;
+        width: 50vw;
+      }
+      
+      .black {
+        background-color: black;
+        width: 385px;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <h1 class="title">Send Money Element</h1>
+    <div>
+      <!--form to send money -->
+      <h1 class="form-title">Send money</h1>
+      <p>Choose a payee to continue</p>
+      <div> 
+        <label for="username">Username</label>
+        <br>
+        <input type="text" placeholder="john007" id="username">
+        <br>
+        <br>
+
+        <div class="box black"></div>
+        <div class="box blue"></div>
+
+        <label for="password">Password</label>
+        <br>
+        <input id="password" type="password" placeholder="min of 8 characters">
+        <br>
+        <br>
+
+        <h4>Gender</h4>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other">
+        <label for="other">Other</label>
+
+        <br>
+        <br>
+        
+        <input type="checkbox" id="newsletter">
+        <label for="newsletter">Click to subscribe to our newsletter</label>
+      </div>
+
+
+    </div>
+  </body>
+</html>
