@@ -1,0 +1,3 @@
+skull = head 
+upper body + arms + lower body = body
+
